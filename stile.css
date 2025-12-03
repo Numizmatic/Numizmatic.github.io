@@ -1,6 +1,6 @@
 img {
     width: 1000px;
-     border-radius: 20px;
+    border-radius: 20px;
 }
 
 h1 {
@@ -26,10 +26,12 @@ body {
     padding: 10px 50px;
     margin: 0 auto;
     border-radius: 20px;
+    margin-top: 75px;
 }
 
 .bth {
-    background: #2b70ce;
+    background: linear-gradient(#6fa0ef, #2b70ce);
+    min-height: 100vh;
     padding: 3px 12px;
     color: #fff;
     text-decoration: none;
@@ -39,8 +41,20 @@ body {
 
 .bth:hover {
     padding: 5px 15px;
-    background: #ff0000;
+    background: linear-gradient(#ff0000, #ed4848);
+    min-height: 100vh;
     
+}
+
+.menu {
+    position: fixed;
+    background: #f5ff00;
+    width: 1000px;
+    padding: 10px 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+    top: 5px;
+    left: 399px;
 }
 
 .menu_bth {
@@ -53,5 +67,6 @@ body {
 }
 
 .menu_bth:hover {
-    background: #f5ff00;
+    background: #ffffff;
+    border-radius: 3px;
 }
