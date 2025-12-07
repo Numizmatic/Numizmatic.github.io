@@ -70,3 +70,19 @@ body {
     background: #ffffff;
     border-radius: 3px;
 }
+
+.telegram {
+    background: linear-gradient(#FB33AF, #FF3434);
+    min-height: 100vh;
+    padding: 3px 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.telegram:hover {
+    padding: 5px 15px;
+    background: linear-gradient(#ff0000, #ed4848);
+    min-height: 100vh;
+}
