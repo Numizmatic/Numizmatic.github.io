@@ -62,8 +62,7 @@ body {
     padding: 3px;
     margin: 3px;
     text-decoration: underline;
-    font-weight: 600;
-    
+    font-weight: 600;  
 }
 
 .menu_bth:hover {
@@ -74,7 +73,7 @@ body {
 .telegram {
     background: linear-gradient(#FB33AF, #FF3434);
     min-height: 100vh;
-    padding: 3px 12px;
+    padding: 5px 15px;
     color: #fff;
     text-decoration: none;
     border-radius: 10px;
@@ -82,7 +81,32 @@ body {
 }
 
 .telegram:hover {
-    padding: 5px 15px;
+    padding: 7px 17px;
     background: linear-gradient(#ff0000, #ed4848);
     min-height: 100vh;
+	border-radius: 12px;
+}
+
+.contact-form {
+	max-width: 300px;
+	margin: 5px;
+}
+
+.form-group {
+	margin-bottom: 10px;
+	border-color: #FF9100;
+}
+
+.form-label {
+	display: block;
+	margin-bottom: 9px;
+	font-weight: 300;
+	color: #FFFF00;
+}
+
+.video {
+    width: 50vw;
+    height: 50vh;
+    object-fit: cover;
+	border-radius: 20px
 }
